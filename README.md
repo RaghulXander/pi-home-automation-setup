@@ -5,17 +5,29 @@ Raspberry pi backend to track the code changes and have a sufficient backup of c
 ### Raspberry Setup and Pinout
 
 ,--------------------------------.
+
 | oooooooooooooooooooo J8     +====
+
 | 1ooooooooooooooooooo        | USB
+
 |                             +====
+
 |      Pi Model 3B  V1.2         |
+
 |      +----+                 +====
+
 | |D|  |SoC |                 | USB
+
 | |S|  |    |                 +====
+
 | |I|  +----+                    |
+
 |                   |C|     +======
+
 |                   |S|     |   Net
+
 | pwr        |HDMI| |I||A|  +======
+
 `-| |--------|    |----|V|-------'
 
 Revision           : a02082
